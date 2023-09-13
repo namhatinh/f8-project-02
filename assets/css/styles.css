@@ -9,7 +9,6 @@ html {
 body {
   font-style: 1.6rem;
   font-family: "Poppins", sans-serif;
-  background: #fffcf4;
 }
 
 /* common */
@@ -43,9 +42,6 @@ a {
 }
 
 /* header */
-.header {
-  background: #fffcf4;
-}
 .header .body {
   display: flex;
   align-items: center;
@@ -56,6 +52,7 @@ a {
   position: sticky;
   top: -28px;
   z-index: 1;
+  background: #fffcf4;
 }
 
 .header .nav {
@@ -104,8 +101,10 @@ a {
 .hero .body {
   display: flex;
 }
+
 .hero-page {
   margin-top: 56px;
+  background: #fffcf4;
 }
 
 .hero .page {
@@ -232,8 +231,7 @@ div.page {
   font-size: 4.4rem;
   font-weight: 700;
   padding-right: 10px;
-
 }
 .page strong + strong {
-    margin-left: 28px;
+  margin-left: 28px;
 }
