@@ -319,70 +319,49 @@ div.page {
   font-weight: 600;
 }
 
-/* blockquote */
-.blockquote-page {
-  position: relative;
+/* feedback */
+.feedback {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background: #2e2100;
+  margin-top: 200px;
 }
 
-.blockquote .vector {
+.feedback .main-content .support {
+  margin: 96px 0;
   display: flex;
-  position: absolute;
+  align-items: center;
+  justify-content: space-between;
 }
 
-q.blockquote {
-  margin-top: 124px;
-  width: 740px;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 26px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.blockquote-page .user {
-  margin-top: 96px;
-  width: 72px;
-  height: 72px;
-  object-fit: cover;
-  border-radius: 72px;
-}
-
-.blockquote-page .name {
+.feedback .name {
   margin-top: 18px;
   color: #f7f7f7;
   font-family: Sen;
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.4;
 }
 
-.blockquote-page .sub-desc {
-  margin-top: 4px;
+.feedback .sub-desc {
   color: #bfbcb2;
   font-family: Poppins;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.86;
-  margin-bottom: 28px;
+  margin: 4px 0 28px;
 }
 
-.blockquote-page .row {
-  display: flex;
-  align-items: center;
+.feedback .feed {
+  width: 65.9%;
 }
 
-.blockquote-page .main {
-  padding-bottom: 96px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.feedback p.blockquote {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.54;
 }
 
 /* eudcation   */
@@ -513,6 +492,7 @@ q.blockquote {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 16px 16px 0 0;
 }
 
 .blog .btn {
