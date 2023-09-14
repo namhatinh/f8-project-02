@@ -238,14 +238,12 @@ div.page {
 
 /* popular */
 .popular {
-  margin: 200px 0;
-  background: pink;
-
+  margin-top: 200px;
 }
 .popular .title {
   color: #171100;
   font-family: Sen;
-  font-size: 38px;
+  font-size: 3.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 1.27;
@@ -287,6 +285,9 @@ div.page {
 }
 
 /* image-popular */
+.image-popular {
+  margin-bottom: 200px;
+}
 
 .image-popular .row .star {
   margin-left: auto;
@@ -319,3 +320,252 @@ div.page {
 }
 
 /* blockquote */
+.blockquote-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2e2100;
+}
+
+.blockquote .vector {
+  display: flex;
+  position: absolute;
+}
+
+q.blockquote {
+  margin-top: 124px;
+  width: 740px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.blockquote-page .user {
+  margin-top: 96px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 72px;
+}
+
+.blockquote-page .name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.blockquote-page .sub-desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+  margin-bottom: 28px;
+}
+
+.blockquote-page .row {
+  display: flex;
+  align-items: center;
+}
+
+.blockquote-page .main {
+  padding-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* eudcation   */
+
+.education .info .title,
+.education .info-2 .title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+
+.info .desc,
+.info-2 .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.education .content .image,
+.education .content .info {
+  flex: 1;
+}
+
+.education .content .info {
+  padding-top: 58px;
+  padding-left: 130px;
+  margin-top: 200px;
+}
+
+.education .content {
+  display: flex;
+  align-items: center;
+}
+
+.education .image {
+  display: flex;
+  margin-left: -30px;
+}
+
+.education .image img {
+  margin-left: 30px;
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.education .img-1 {
+  margin-top: 234px;
+}
+
+.education .img-2 {
+  margin-top: 200px;
+}
+
+.education .info .btn {
+  margin-top: 32px;
+  background: orange;
+  text-align: center;
+  min-width: 137px;
+}
+
+.education .info-2 {
+  padding-top: 71px;
+}
+
+.education .image-3 .img-3 {
+  width: 470px;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.education .content-2 {
+  margin-top: 200px;
+}
+
+/* blog */
+.blog {
+  padding: 100px 0;
+  background: #fffcf4;
+}
+
+.blog h2.title {
+  margin-bottom: 16px;
+  color: #130606;
+  text-align: center;
+  font-family: Sen;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+
+.blog .desc-1 {
+  color: #696262;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  max-width: 448px;
+  margin: 0 auto;
+}
+
+.blog .content-blog {
+  padding-top: 55px;
+  gap: 30px;
+  display: flex;
+}
+
+.blog .content {
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.blog .content .image img {
+  flex: 1;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.blog .btn {
+  margin-left: 20px;
+  margin-bottom: 28px;
+}
+
+.blog .conten-1 .btn {
+  min-width: 118px;
+  background: orange;
+}
+
+.content-blog p.desc {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.content-blog h3.title {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+  margin: 0 20px;
+}
+
+.blog .page-blog {
+  margin: 0 auto;
+}
+
+.blog .row-2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.blog .row-2 p {
+  margin-left: 4px;
+}
+
+.rectangle {
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+  margin: 12px 20px;
+}
+
+.page-blog {
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+  padding-top: 38px;
+  margin: 0 auto;
+}
